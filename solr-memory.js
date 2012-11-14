@@ -1,152 +1,152 @@
 var metrics = [
   {
     "alias": 'solrcloud01',
-    "target": "stats.solrcloud01.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud01.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
     {
     "alias": 'solrcloud02',
-    "target": "stats.solrcloud02.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud02.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud03',
-    "target": "stats.solrcloud03.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud03.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud04',
-    "target": "stats.solrcloud04.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud04.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud05',
-    "target": "stats.solrcloud05.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud05.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud06',
-    "target": "stats.solrcloud06.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud06.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud07',
-    "target": "stats.solrcloud07.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud07.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud08',
-    "target": "stats.solrcloud08.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud08.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud09',
-    "target": "stats.solrcloud09.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud09.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud10',
-    "target": "stats.solrcloud10.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud10.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud11',
-    "target": "stats.solrcloud11.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud11.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud12',
-    "target": "stats.solrcloud12.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud12.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud13',
-    "target": "stats.solrcloud13.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud13.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud14',
-    "target": "stats.solrcloud14.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud14.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud15',
-    "target": "stats.solrcloud15.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud15.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud16',
-    "target": "stats.solrcloud16.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud16.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud17',
-    "target": "stats.solrcloud17.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud17.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud18',
-    "target": "stats.solrcloud18.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud18.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud19',
-    "target": "stats.solrcloud19.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud19.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud20',
-    "target": "stats.solrcloud20.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud20.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud21',
-    "target": "stats.solrcloud21.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud21.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud22',
-    "target": "stats.solrcloud22.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud22.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud23',
-    "target": "stats.solrcloud23.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud23.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud24',
-    "target": "stats.solrcloud24.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud24.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud25',
-    "target": "stats.solrcloud25.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud25.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud26',
-    "target": "stats.solrcloud26.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud26.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud27',
-    "target": "stats.solrcloud27.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud27.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud28',
-    "target": "stats.solrcloud28.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud28.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud29',
-    "target": "stats.solrcloud29.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud29.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   },
   {
     "alias": 'solrcloud30',
-    "target": "stats.solrcloud30.memory.freeWOBuffersCaches",
-    "unit": "MB"
+    "target": "scale(stats.solrcloud30.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
   }
 ];
