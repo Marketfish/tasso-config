@@ -178,5 +178,17 @@ var metrics = [
     "target": "stats.solrcloud30.load_avg.five",
     "warning": 1,
     "critical": 2
+  },
+  {
+    "alias": 'solrcloud31',
+    "target": "stats.solrcloud31.load_avg.five",
+    "warning": 1,
+    "critical": 2
+  },
+  {
+    "alias": 'solrcloud32',
+    "target": "stats.solrcloud32.load_avg.five",
+    "warning": 1,
+    "critical": 2
   }
 ];

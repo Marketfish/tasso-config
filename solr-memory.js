@@ -4,7 +4,7 @@ var metrics = [
     "target": "scale(stats.solrcloud01.memory.freeWOBuffersCaches,0.00000000093132)",
     "unit": "GB"
   },
-    {
+  {
     "alias": 'solrcloud02',
     "target": "scale(stats.solrcloud02.memory.freeWOBuffersCaches,0.00000000093132)",
     "unit": "GB"
@@ -147,6 +147,16 @@ var metrics = [
   {
     "alias": 'solrcloud30',
     "target": "scale(stats.solrcloud30.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
+  },
+  {
+    "alias": 'solrcloud31',
+    "target": "scale(stats.solrcloud31.memory.freeWOBuffersCaches,0.00000000093132)",
+    "unit": "GB"
+  },
+  {
+    "alias": 'solrcloud032',
+    "target": "scale(stats.solrcloud32.memory.freeWOBuffersCaches,0.00000000093132)",
     "unit": "GB"
   }
 ];
