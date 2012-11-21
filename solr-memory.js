@@ -148,15 +148,5 @@ var metrics = [
     "alias": 'solrcloud30',
     "target": "scale(stats.solrcloud30.memory.freeWOBuffersCaches,0.00000000093132)",
     "unit": "GB"
-  },
-  {
-    "alias": 'solrcloud31',
-    "target": "scale(stats.solrcloud31.memory.freeWOBuffersCaches,0.00000000093132)",
-    "unit": "GB"
-  },
-  {
-    "alias": 'solrcloud032',
-    "target": "scale(stats.solrcloud32.memory.freeWOBuffersCaches,0.00000000093132)",
-    "unit": "GB"
   }
 ];
