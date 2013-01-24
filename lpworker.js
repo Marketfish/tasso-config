@@ -24,7 +24,7 @@ var metrics = [
     "alias": 'workhorse01_rate',
     "target": "sumSeries(stats.workhorse01.lpworker.records_per_second.*)",
   },
-    {
+  {
     "alias": 'workhorse02_load',
     "target": "stats.workhorse02.load_avg.one",
     "warning": 1,
@@ -33,5 +33,15 @@ var metrics = [
   {
     "alias": 'workhorse02_rate',
     "target": "sumSeries(stats.workhorse02.lpworker.records_per_second.*)",
+  },
+  {
+    "alias": 'lpworker01_load',
+    "target": "stats.lpworker01.load_avg.one",
+    "warning": 1,
+    "critical": 2
+  },
+  {
+    "alias": 'lpworker01_rate',
+    "target": "sumSeries(stats.lpworker01.lpworker.records_per_second.*)",
   }
 ];
