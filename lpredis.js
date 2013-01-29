@@ -16,6 +16,6 @@ var metrics = [
   { "alias": "cpu user",        "target": "stats.eightball01.redis.used_cpu_user" },
   { "alias": "cpu user child",  "target": "stats.eightball01.redis.used_cpu_user_children" },
   { "alias": "mem used",        "target": "stats.eightball01.redis.used_memory" },
-  { "alias": "mem rss",         "target": "stats.eightball01.redis.used_memory_rss" }
-  { "alias": "mem frag",        "target": "stats.eightball01.redis.mem_fragmentation_ratio" },
+  { "alias": "mem rss",         "target": "stats.eightball01.redis.used_memory_rss" },
+  { "alias": "mem frag",        "target": "stats.eightball01.redis.mem_fragmentation_ratio" }
 ]
