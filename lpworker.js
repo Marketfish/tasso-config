@@ -6,21 +6,10 @@ var metrics = [
     "alias": 'lpworker_total',
     "target": "sumSeries(stats.*.lpworker.records_per_second.*)"
   },
+  { "alias": 'lpredis_queue', "target": "stats.eightball01.redis.indexingQueue01.llen" },
   {
     "alias": 'services01_load',
     "target": "stats.services01.load_avg.one",
-    "warning": 1,
-    "critical": 2
-  },
-      {
-    "alias": 'workhorse01_load',
-    "target": "stats.workhorse01.load_avg.one",
-    "warning": 1,
-    "critical": 2
-  },
-    {
-    "alias": 'workhorse02_load',
-    "target": "stats.workhorse02.load_avg.one",
     "warning": 1,
     "critical": 2
   },
@@ -28,12 +17,22 @@ var metrics = [
     "alias": 'services01_rate',
     "target": "sumSeries(stats.services01.lpworker.records_per_second.*)",
   },
-
+  {
+    "alias": 'workhorse01_load',
+    "target": "stats.workhorse01.load_avg.one",
+    "warning": 1,
+    "critical": 2
+  },
   {
     "alias": 'workhorse01_rate',
     "target": "sumSeries(stats.workhorse01.lpworker.records_per_second.*)",
   },
-
+  {
+    "alias": 'workhorse02_load',
+    "target": "stats.workhorse02.load_avg.one",
+    "warning": 1,
+    "critical": 2
+  },
   {
     "alias": 'workhorse02_rate',
     "target": "sumSeries(stats.workhorse02.lpworker.records_per_second.*)",
