@@ -1,12 +1,12 @@
 var metrics = [
 
   { "alias": "solr_load", "target": "averageSeries(stats.solrcloud*.load_avg.one)" },
+  { "alias": 'lpredis_queue', "target": "stats.eightball01.redis.indexingQueue01.llen" },
   { "alias": "listproc_load", "target": "stats.listprocessing01.load_avg.one" },
   {
-    "alias": 'lpworker_total',
+    "alias": 'total rate',
     "target": "sumSeries(stats.*.lpworker.records_per_second.*)"
   },
-  { "alias": 'lpredis_queue', "target": "stats.eightball01.redis.indexingQueue01.llen" },
   {
     "alias": 'services01_load',
     "target": "stats.services01.load_avg.one",
